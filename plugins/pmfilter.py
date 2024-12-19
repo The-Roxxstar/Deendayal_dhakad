@@ -80,7 +80,7 @@ async def get_shortlink(url):
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
-    #await message.react(emoji=random.choice(REACTIONS), big=True)
+    #await message.react(emoji=random.choice(REACTIONS), big=False)
     await mdb.update_top_messages(message.from_user.id, message.text)
     if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
@@ -111,7 +111,7 @@ async def pm_text(bot, message):
     content = message.text
     user = message.from_user.first_name
     user_id = message.from_user.id
-    #await message.react(emoji=random.choice(REACTIONS), big=True)
+    #await message.react(emoji=random.choice(REACTIONS), big=False)
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if PM_SEARCH:
         await auto_filter(bot, message)
