@@ -67,7 +67,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_popcorn_movie_update/31') # T
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/PopCorn_Movie_Group')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/New_Movies_Bots')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+nG_g6v-Snho0ZGJl')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Royal_X_RoxStar')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/You_Want_To_Know_Me')
