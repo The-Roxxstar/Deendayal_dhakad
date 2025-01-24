@@ -60,9 +60,9 @@ DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-10022031259
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_popcorn_movie_update/31') # How to open tutorial link for verification
 
 # Shortner 
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'teraboxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0b23e284bc1e5feb2a265256c35e4236c18e193d')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f71e79189c558eb6dd0b3681899153dc41f85c52')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_popcorn_movie_update/31') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
